@@ -10,3 +10,5 @@ The script "stack_images.py" averages the pixels of the iamges of the previous f
 The script "enhance_image.py" runs some enhancement filters (brightness, contrast, color) on an image and then saves the results. The final output is "enhanced.tif". 
 
 Modules used: PIL, shutil, os, sys
+
+The script "clean_moon.py" uses another image-stack technique. It takes all images from the moon_cropped folder and calculates the median value of red, blue and green pixels to remove a nonstationary object. 

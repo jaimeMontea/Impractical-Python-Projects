@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 13 00:04:01 2021
-
-@author: Jaime
-"""
-
-
 """Median pixels in a series of images to produce a single stacked image."""
 import os
 from PIL import Image
